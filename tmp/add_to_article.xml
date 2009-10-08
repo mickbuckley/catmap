@@ -1,4 +1,0 @@
-                <param name="mapx" type="text" size="5" default="" label="Pixel x coordinate for map icon using catmap plugin." description="Enter the number of pixels from the left of the map image you have used as a parameter in your catmap plugin." />
-                <param name="mapy" type="text" size="5" default="" label="Pixel y coordinate for map icon using catmap plugin." description="Enter the number of pixels from the top of the map image you have used as a parameter in your catmap plugin." />
-                <param name="mapclass" type="text" size="20" default="catmapicon" label="CSS class to apply to map bullets and icons." description="Use e.g. '#map a.catmapicon' selector to control background image displayed for icon on the map." />
-
