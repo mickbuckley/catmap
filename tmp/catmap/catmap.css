@@ -1,0 +1,124 @@
+/* Start CSS Coding
+=====================================================================*/
+
+/* Start Map CSS
+=====================================================================*/
+#mapclose {
+	position: absolute;
+	display: block;
+	padding: 7px 15px;
+	bottom: 0px;
+	right: 0px;
+	background: #A0C423;
+	color: white;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+#mapopen {
+	display: block;
+	padding: 7px 15px;
+	background: #A0C423;
+	color: white;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+#map {
+	margin: 0 10px 10px 0;
+	float: left;
+}
+
+#map a.bullet {
+	display: none;
+	position: absolute;
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(/templates/business_green/images/icon_default24x48.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+#map a.catmapicon {
+	background: url(/templates/business_green/images/icon_default24x48.png) 0 0 no-repeat;
+}
+
+#map a.catmapbach {
+	background: url(/templates/business_green/images/icon_home24x48.png) 0 0 no-repeat;
+}
+
+#map a.catmapstar {
+	background: url(/templates/business_green/images/icon_star24x48.png) 0 0 no-repeat;
+}
+
+#map a.catmapcross {
+	background: url(/templates/business_green/images/icon_cross24x48.png) 0 0 no-repeat;
+}
+
+#map a.bullet:hover { text-decoration: none; }
+
+#map div.popup {
+	display: none;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 275px;
+	background: white url(/core/gfx/map/popup.png) no-repeat;
+	border: 1px solid #f7a829;
+	z-index: 10;
+}
+
+/*
+#map div.yellow { background-position: -225px 0px } 
+#map div.green   { background-position: -450px 0px } 
+#map div.blue     { background-position: -675px 0px } 
+#map div.purple { background-position: -900px 0px } 
+*/
+
+#map div.popup h3 {
+	display: block;
+	text-align: center;
+	margin: 0;
+	padding: 8px 13px 13px 13px;
+	color: #f7a829;
+	font-size: 17px;
+}
+#map div.yellow h3 { color: black; }
+
+#map div.popup div.popupcontent {
+	padding: 0 15px;
+	font-family: arial;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+#map div.popup div.popupcontent p{
+	margin: 10px 0;
+}
+
+#map div.popup div.popupcontent a {
+	color: blue;
+	border-bottom: 1px dotted blue;
+}
+#map div.popup div.popupcontent a:hover {
+	text-decoration: none;
+	}
+#map div.popup a.close{
+	display: block;
+	position: absolute;
+	top: 286px;
+	left: 15px;
+}
+#map div.popup a.close img{
+	border: none;
+	z-index: 100;
+}
+
+#map a.catmaphighlight {
+	background-position: 0px -24px;
+	z-index: 100 !important;
+}
+
+.localities div.popup {
+	display: none;
+}
